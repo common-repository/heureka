@@ -1,0 +1,976 @@
+# Copyright (C) 2022 Heureka Group
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Heureka WPORG_VERSION\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/heureka\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-21T17:47:55+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: heureka\n"
+
+#. Plugin Name of the plugin
+#: src/Settings/ConversionTrackingSettings.php:45
+#: src/Settings/CustomerVerifiedSettings.php:77
+#: src/Settings/FeedProductsCzSettings.php:109
+#: src/Settings/FeedProductsSettings.php:189
+#: src/Settings/FeedProductsSkSettings.php:98
+#: src/Settings/GeneralSettings.php:45
+#: src/Settings/MarketplaceSettings.php:23
+#: src/Settings/ProductSettings.php:33
+#: src/Settings/ProductSettings.php:295
+msgid "Heureka"
+msgstr ""
+
+#. Description of the plugin
+msgid "Official integration of Heureka services for WooCommerce. Heureka marketplace, product feed, availability feed and Customer Verified."
+msgstr ""
+
+#. Author of the plugin
+msgid "Heureka Group"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.heureka.cz/"
+msgstr ""
+
+#: heureka.php:69
+msgid "Opps! %s requires a minimum PHP version of %s. Your current version is: %s. Please contact your host to upgrade."
+msgstr ""
+
+#: heureka.php:81
+msgid "Opps! %s is corrupted it seems, please re-install the plugin."
+msgstr ""
+
+#: heureka.php:91
+msgid "Opps! %s requires PHP Curl extension installed. Please contact your web hosting to enable it."
+msgstr ""
+
+#: src/Abstracts/AbstractFeed.php:464
+msgid "<div class=\"updated notice\"><p>Feed %s is being generated on background. Number of remaining items: %s</p><p>To process next batch <a href=\"%s\" target=\"_blank\">click here</a>, or just wait a few moments.</p></div>"
+msgstr ""
+
+#: src/Enums/DeliveryTypes.php:12
+msgid "Personal pickup"
+msgstr ""
+
+#: src/Enums/DeliveryTypes.php:16
+msgid "Czech post"
+msgstr ""
+
+#: src/Enums/DeliveryTypes.php:20
+msgid "PPL / DPD / Přepravní služba"
+msgstr ""
+
+#: src/Enums/DeliveryTypes.php:24
+msgid "Express delivery"
+msgstr ""
+
+#: src/Enums/DeliveryTypes.php:28
+msgid "Special delivery"
+msgstr ""
+
+#: src/Enums/DeliveryTypes.php:32
+msgid "Czech post - Na poštu"
+msgstr ""
+
+#: src/Enums/DeliveryTypes.php:36
+msgid "Depot API Delivery"
+msgstr ""
+
+#: src/Enums/OrderStatuses.php:12
+msgid "Shipped"
+msgstr ""
+
+#: src/Enums/OrderStatuses.php:16
+msgid "Sent to shop"
+msgstr ""
+
+#: src/Enums/OrderStatuses.php:20
+msgid "Partially completed"
+msgstr ""
+
+#: src/Enums/OrderStatuses.php:24
+msgid "Shop Confirmed"
+msgstr ""
+
+#: src/Enums/OrderStatuses.php:28
+msgid "Shop Cancelled"
+msgstr ""
+
+#: src/Enums/OrderStatuses.php:32
+msgid "Customer Cancelled"
+msgstr ""
+
+#: src/Enums/OrderStatuses.php:36
+msgid "Cancelled - Unpaid"
+msgstr ""
+
+#: src/Enums/OrderStatuses.php:40
+msgid "Returned"
+msgstr ""
+
+#: src/Enums/OrderStatuses.php:44
+msgid "Completed on Heureka"
+msgstr ""
+
+#: src/Enums/OrderStatuses.php:48
+msgid "Delivered"
+msgstr ""
+
+#: src/Enums/OrderStatuses.php:52
+msgid "Ready for pickup"
+msgstr ""
+
+#: src/Enums/OrderStatuses.php:56
+msgid "Shipped to external point"
+msgstr ""
+
+#: src/Enums/PaymentTypes.php:12
+msgid "Cash on delivery"
+msgstr ""
+
+#: src/Enums/PaymentTypes.php:16
+msgid "Cash"
+msgstr ""
+
+#: src/Enums/PaymentTypes.php:20
+msgid "Credit Card"
+msgstr ""
+
+#: src/Enums/PaymentTypes.php:24
+msgid "Bank Transfer"
+msgstr ""
+
+#: src/Enums/StoreTypes.php:12
+msgid "Internal"
+msgstr ""
+
+#: src/Enums/StoreTypes.php:16
+msgid "Pickup point"
+msgstr ""
+
+#: src/Enums/WeekDays.php:11
+msgid "Monday"
+msgstr ""
+
+#: src/Enums/WeekDays.php:15
+msgid "Tuesday"
+msgstr ""
+
+#: src/Enums/WeekDays.php:19
+msgid "Wednesday"
+msgstr ""
+
+#: src/Enums/WeekDays.php:23
+msgid "Thursday"
+msgstr ""
+
+#: src/Enums/WeekDays.php:27
+msgid "Friday"
+msgstr ""
+
+#: src/Enums/WeekDays.php:31
+msgid "Saturday"
+msgstr ""
+
+#: src/Enums/WeekDays.php:35
+msgid "Sunday"
+msgstr ""
+
+#: src/Feed/FeedCategories.php:84
+msgid "Downloading of the categories XML failed, please contact your hosting provider."
+msgstr ""
+
+#: src/HeurekaApi/In/OrderCancel.php:46
+msgid "Cancelled (Heureka): %s"
+msgstr ""
+
+#: src/Plugin.php:70
+msgid "Settings"
+msgstr ""
+
+#: src/Plugin.php:73
+msgid "https://www.wpify.io/"
+msgstr ""
+
+#: src/Plugin.php:73
+msgid "Get more plugins and support"
+msgstr ""
+
+#: src/Settings/ConversionTrackingSettings.php:20
+msgid "Public key for conversions"
+msgstr ""
+
+#: src/Settings/ConversionTrackingSettings.php:21
+msgid "Enter the public key for the conversion measurement code can be found in the <a href=\"%s\" target=\"_blank\">Heureka administration</a>"
+msgstr ""
+
+#: src/Settings/ConversionTrackingSettings.php:21
+msgid "https://sluzby.heureka.cz/obchody/mereni-konverzi/"
+msgstr ""
+
+#: src/Settings/ConversionTrackingSettings.php:36
+#: src/Settings/CustomerVerifiedSettings.php:20
+msgid "Country"
+msgstr ""
+
+#: src/Settings/ConversionTrackingSettings.php:37
+msgid "Select country for tracking"
+msgstr ""
+
+#: src/Settings/ConversionTrackingSettings.php:49
+#: src/Settings/GeneralSettings.php:34
+msgid "Conversion tracking"
+msgstr ""
+
+#: src/Settings/ConversionTrackingSettings.php:51
+#: src/Settings/CustomerVerifiedSettings.php:83
+#: src/Settings/GeneralSettings.php:51
+#: src/Settings/MarketplaceSettings.php:29
+msgid "Heureka Settings"
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:21
+msgid "Select country"
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:24
+msgid "Heureka CZ"
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:28
+msgid "Heureka SK"
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:36
+msgid "Secret Key"
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:37
+msgid "Enter the Secret Key for Verified Customers can be found in the <a href=\"%s\" target=\"_blank\">Verified Customers settings</a>"
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:37
+msgid "https://sluzby.heureka.cz/n/sluzby/certifikat-spokojenosti/"
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:42
+msgid "Enable Opt-Out"
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:43
+msgid "Check if you want to enable opt out on the checkout"
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:48
+msgid "Opt-Out Text"
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:49
+msgid "Enter the text of the Opt-out checkbox to refuse the questionnaire. Default text: "
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:50
+#: src/Settings/CustomerVerifiedSettings.php:51
+msgid "I don't want to receive survey from Heureka ověřeno zákazníky"
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:56
+msgid "Enable Certification Widget"
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:57
+msgid "Check if you want to enable certification widget."
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:62
+msgid "Certification widget code"
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:63
+msgid "Copy the code from your Heureka account."
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:68
+msgid "Send asynchronously"
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:69
+msgid "By default the order is sent to Heureka synchronously, which is required. Under some circumstances this can cause issues - toggle on if you want to schedule the event and send it asynchronously."
+msgstr ""
+
+#: src/Settings/CustomerVerifiedSettings.php:81
+msgid "Customer verified"
+msgstr ""
+
+#: src/Settings/FeedProductsCzSettings.php:49
+#: src/Settings/FeedProductsSkSettings.php:40
+msgid "Heureka shopping category for %s"
+msgstr ""
+
+#: src/Settings/FeedProductsCzSettings.php:50
+#: src/Settings/FeedProductsSkSettings.php:41
+msgid "Category full path: %s"
+msgstr ""
+
+#: src/Settings/FeedProductsCzSettings.php:65
+#: src/Settings/FeedProductsCzSettings.php:71
+#: src/Settings/FeedProductsSkSettings.php:56
+#: src/Settings/FeedProductsSkSettings.php:62
+#: src/Settings/ProductSettings.php:99
+msgid "Delivery methods"
+msgstr ""
+
+#: src/Settings/FeedProductsCzSettings.php:66
+#: src/Settings/FeedProductsSkSettings.php:57
+msgid "Select the delivery methods and prices"
+msgstr ""
+
+#: src/Settings/FeedProductsCzSettings.php:75
+#: src/Settings/FeedProductsSkSettings.php:66
+#: src/Settings/ProductSettings.php:104
+msgid "Add method"
+msgstr ""
+
+#: src/Settings/FeedProductsCzSettings.php:76
+#: src/Settings/FeedProductsSkSettings.php:67
+#: src/Settings/ProductSettings.php:105
+msgid "Remove method"
+msgstr ""
+
+#: src/Settings/FeedProductsCzSettings.php:83
+#: src/Settings/FeedProductsSkSettings.php:74
+#: src/Settings/ProductSettings.php:113
+msgid "Delivery method"
+msgstr ""
+
+#: src/Settings/FeedProductsCzSettings.php:84
+#: src/Settings/FeedProductsSkSettings.php:75
+#: src/Settings/ProductSettings.php:114
+msgid "Select delivery method"
+msgstr ""
+
+#: src/Settings/FeedProductsCzSettings.php:89
+#: src/Settings/FeedProductsSkSettings.php:80
+#: src/Settings/MarketplaceSettings.php:150
+#: src/Settings/MarketplaceSettings.php:261
+#: src/Settings/ProductSettings.php:119
+msgid "Price"
+msgstr ""
+
+#: src/Settings/FeedProductsCzSettings.php:90
+#: src/Settings/FeedProductsSkSettings.php:81
+#: src/Settings/MarketplaceSettings.php:151
+#: src/Settings/ProductSettings.php:120
+msgid "Enter price for delivery."
+msgstr ""
+
+#: src/Settings/FeedProductsCzSettings.php:95
+#: src/Settings/FeedProductsSkSettings.php:86
+#: src/Settings/ProductSettings.php:125
+msgid "Price COD"
+msgstr ""
+
+#: src/Settings/FeedProductsCzSettings.php:96
+#: src/Settings/FeedProductsSkSettings.php:87
+#: src/Settings/ProductSettings.php:126
+msgid "Enter price for delivery with COD."
+msgstr ""
+
+#: src/Settings/FeedProductsCzSettings.php:113
+msgid "Product feed CZ settings"
+msgstr ""
+
+#: src/Settings/FeedProductsCzSettings.php:119
+msgid "Map categories"
+msgstr ""
+
+#: src/Settings/FeedProductsCzSettings.php:120
+msgid "Map WooCommerce categories to Heureka categories"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:48
+msgid "Business days"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:49
+msgid "Select all your business days."
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:57
+msgid "Closing hour"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:58
+msgid "Enter business closing hour in HH:MM format."
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:64
+msgid "Delivery time"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:65
+#: src/Settings/FeedProductsSettings.php:71
+msgid "Enter 0 for instock, 1-3 for 3 days, 4-7 for one week, 8-14 for two weeks, 15-30 for one month, 31 and more for month and more."
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:70
+msgid "Delivery time for out of stock items"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:76
+msgid "Exclude out of stock items"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:77
+msgid "Check to exclude out of stock items."
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:82
+msgid "ITEM_ID custom field"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:83
+msgid "Product ID is used as default value for ITEM_ID. Enter custom field key if you want to use custom field value instead."
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:88
+msgid "EAN custom field"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:89
+msgid "SKU is used as default value for EAN. Enter custom field key if you want to use custom field value instead."
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:94
+msgid "Brand "
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:95
+msgid "Enter text, custom field or taxonomy slug. You can also override the brand for each product."
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:100
+msgid "Brand type"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:120
+msgid "Generate feeds"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:121
+msgid "Product feeds (CZ and SK) are generated manually by clicking a button. If you switch \"Auto regenerate on product update\", they will be generated automatically after product update.<br/>The availability feed is generated automatically every day. If necessary, it can be regenerated manually by clicking the button."
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:127
+msgid "Products per run"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:128
+msgid "The number of products processed in one run. Leave empty for default (100)."
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:134
+msgid "Auto regenerate on product update"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:135
+msgid "Automatically regenerates feeds after product save/update. Toggle off if you have large number of product updates (ie. when using WP All Import for importing large number of products)."
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:141
+msgid "Generate feed CZ"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:142
+#: src/Settings/FeedProductsSettings.php:155
+#: src/Settings/FeedProductsSettings.php:168
+msgid "Once generated, the feed will be available at: <a href=\"%1$s\" target=\"blank\">%1$s</a>"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:154
+msgid "Generate feed SK"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:167
+msgid "Generate availability feed"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:193
+#: src/Settings/FeedProductsSettings.php:195
+msgid "Product feed settings"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:209
+msgid "To regenerate the feeds automatically, you can setup the cron jobs from the table bellow. The first cron is used to schedule the regeneration, so you can set it up ie. every one hour. The second cron is used to trigger the regeneration of the next batch - depending on the number of products in one batch set it up to ie. every minute."
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:210
+msgid "You can also use the WP-CLI command to regenerate the feeds. The command regenerates the feed at once, so you can schedule it ie. every one hour."
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:255
+msgid "Missing feed param"
+msgstr ""
+
+#: src/Settings/FeedProductsSettings.php:268
+msgid "Wrong feed"
+msgstr ""
+
+#: src/Settings/FeedProductsSkSettings.php:102
+msgid "Product feed SK settings"
+msgstr ""
+
+#: src/Settings/FeedProductsSkSettings.php:108
+msgid "Map SK categories"
+msgstr ""
+
+#: src/Settings/FeedProductsSkSettings.php:109
+msgid "Map WooCommerce categories to Heureka SK categories"
+msgstr ""
+
+#: src/Settings/GeneralSettings.php:17
+msgid "Enabled features"
+msgstr ""
+
+#: src/Settings/GeneralSettings.php:22
+msgid "Feeds"
+msgstr ""
+
+#: src/Settings/GeneralSettings.php:26
+#: src/Settings/MarketplaceSettings.php:27
+msgid "Marketplace"
+msgstr ""
+
+#: src/Settings/GeneralSettings.php:30
+msgid "Verified by customers"
+msgstr ""
+
+#: src/Settings/GeneralSettings.php:49
+msgid "General settings"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:36
+msgid "Heureka API URL"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:37
+msgid "The API URL to connect to Heureka can be found in the <a href=\"%s\" target=\"_blank\">Heureka Marketplace settings</a>"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:37
+msgid "https://sluzby.heureka.cz/n/obchody/kosik-nastaveni/api/"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:42
+msgid "Stores"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:46
+msgid "Add store"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:47
+msgid "Remove store"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:51
+msgid "Label"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:53
+msgid "Enter arbitrary label"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:58
+msgid "Type"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:67
+#: src/Settings/MarketplaceSettings.php:129
+#: src/Settings/MarketplaceSettings.php:240
+#: src/Settings/MarketplaceSettings.php:332
+msgid "ID"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:68
+msgid "If you selected Internal, enter the Shipper ID that can be found in the <a href=\"%s\" target=\"_blank\">Heureka administration</a>"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:68
+msgid "https://sluzby.heureka.cz/obchody/pobocky/"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:73
+msgid "Shipper ID"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:74
+msgid "If you selected Pickup point, choose the Shipper here."
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:95
+#: src/Settings/MarketplaceSettings.php:296
+msgid "Shipping"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:99
+msgid "Add shipping"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:100
+msgid "Remove shipping"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:104
+#: src/Settings/MarketplaceSettings.php:223
+msgid "WoocCommerce Method"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:130
+#: src/Settings/MarketplaceSettings.php:241
+#: src/Settings/MarketplaceSettings.php:333
+msgid "Enter any unique ID of your choice."
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:135
+#: src/Settings/MarketplaceSettings.php:246
+msgid "Heureka Type"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:144
+#: src/Settings/MarketplaceSettings.php:255
+#: src/Settings/ProductSettings.php:184
+msgid "Name"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:145
+msgid "Enter name for delivery."
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:156
+msgid "VAT"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:157
+msgid "Select VAT class for delivery."
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:177
+msgid "E-shop has no taxes allowed"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:186
+#: src/Settings/ProductSettings.php:150
+#: src/Settings/ProductSettings.php:281
+msgid "Description"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:187
+msgid "Enter description for delivery."
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:192
+msgid "Store"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:193
+msgid "Select store defined above."
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:193
+#: src/Settings/MarketplaceSettings.php:270
+#: src/Settings/MarketplaceSettings.php:297
+#: src/Settings/MarketplaceSettings.php:315
+msgid "Save changes if you have just added them."
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:214
+#: src/Settings/MarketplaceSettings.php:314
+msgid "Payment"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:218
+msgid "Add payment"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:219
+msgid "Remove pament"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:256
+msgid "Enter name for payment."
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:262
+msgid "Enter price for payment."
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:269
+msgid "Default Heureka payment"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:270
+msgid "Payment method used if Heureka returns unknown payment method."
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:287
+msgid "Shipping / Payment combinations"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:291
+msgid "Add combination"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:292
+msgid "Remove combination"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:297
+msgid "Select shipping defined above."
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:315
+msgid "Select payment defined above."
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:341
+msgid "Statuses"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:345
+msgid "Add status"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:346
+msgid "Remove status"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:350
+msgid "WooCommerce Status"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:367
+msgid "Heureka Status"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:378
+msgid "Paid order - statuses"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:379
+msgid "Select all order statuses that are paid."
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:398
+msgid "Invoice path custom field"
+msgstr ""
+
+#: src/Settings/MarketplaceSettings.php:399
+msgid "Custom order field key with invoice path."
+msgstr ""
+
+#: src/Settings/ProductSettings.php:44
+msgid "Exclude from feed"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:45
+msgid "Check for exclude this product from feed."
+msgstr ""
+
+#: src/Settings/ProductSettings.php:50
+#: src/Settings/ProductSettings.php:300
+msgid "Custom feed ID"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:51
+#: src/Settings/ProductSettings.php:301
+msgid "Overwrite ITEM_ID. Product ID or custom field from Global Feed settings is used as default."
+msgstr ""
+
+#: src/Settings/ProductSettings.php:56
+#: src/Settings/ProductSettings.php:331
+msgid "Product title"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:57
+#: src/Settings/ProductSettings.php:332
+msgid "Product name + information about product distribution or personal collection. Product name is used as default."
+msgstr ""
+
+#: src/Settings/ProductSettings.php:62
+#: src/Settings/ProductSettings.php:320
+msgid "Product name"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:63
+#: src/Settings/ProductSettings.php:321
+msgid "Overwrite default product name"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:68
+#: src/Settings/ProductSettings.php:310
+msgid "EAN"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:69
+#: src/Settings/ProductSettings.php:311
+msgid "Set or overwrite global EAN code from custom field."
+msgstr ""
+
+#: src/Settings/ProductSettings.php:74
+msgid "Brand"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:75
+msgid "Overwrite global brand settings from Feed settings"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:81
+msgid "Category CZ"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:90
+msgid "Category SK"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:100
+msgid "Overwrite global delivery methods settings"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:132
+msgid "Main image"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:138
+msgid "Alternative images"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:145
+msgid "Video URL"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:151
+msgid "Overwrite default product description."
+msgstr ""
+
+#: src/Settings/ProductSettings.php:156
+#: src/Settings/ProductSettings.php:341
+msgid "Product number"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:157
+#: src/Settings/ProductSettings.php:342
+msgid "Set product number for PRODUCTNO parameter."
+msgstr ""
+
+#: src/Settings/ProductSettings.php:162
+msgid "ISBN"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:163
+msgid "An alphanumeric code designed to uniquely identify book editions."
+msgstr ""
+
+#: src/Settings/ProductSettings.php:168
+msgid "Heureka CPC"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:169
+msgid "Set as decimal number with comma separator greater than zero"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:174
+msgid "Params"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:177
+msgid "Add parameter"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:178
+msgid "Remove parameter"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:190
+msgid "Value"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:198
+msgid "Gift"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:203
+msgid "Extended_warranty"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:209
+msgid "Months"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:210
+msgid "Length of warranty in number of months."
+msgstr ""
+
+#: src/Settings/ProductSettings.php:215
+#: src/Settings/ProductSettings.php:254
+msgid "Title"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:216
+msgid "The maximum length of the caption is 128 characters."
+msgstr ""
+
+#: src/Settings/ProductSettings.php:224
+msgid "Accessory"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:227
+msgid "Add accessory"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:228
+msgid "Remove accessory"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:234
+msgid "Product"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:243
+msgid "Special services"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:244
+msgid "Heureka XML feed will use only max. five services."
+msgstr ""
+
+#: src/Settings/ProductSettings.php:247
+msgid "Add service"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:248
+msgid "Remove service"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:255
+msgid "For example: free service, take out to the floor, etc."
+msgstr ""
+
+#: src/Settings/ProductSettings.php:263
+msgid "Sales voucher"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:269
+msgid "Code"
+msgstr ""
+
+#: src/Settings/ProductSettings.php:275
+msgid "Discount in %"
+msgstr ""

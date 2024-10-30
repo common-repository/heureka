@@ -1,0 +1,15 @@
+<?php
+
+namespace HeurekaDeps\Hcapi\Services;
+
+/**
+ * @author Oldřich Taufer <oldrich.taufer@heureka.cz>
+ */
+class OrderCancel extends AbstractService
+{
+    const KEY_STATUS = 'status';
+    public function __construct()
+    {
+        $this->validator = new \HeurekaDeps\Hcapi\Validators\OrderCancel();
+    }
+}
